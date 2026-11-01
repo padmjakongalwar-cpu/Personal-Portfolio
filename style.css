@@ -1,0 +1,153 @@
+header {
+    background-color:#fcfbfe;
+    letter-spacing:normal;
+    max-width: 1100px;
+    margin:0 auto;
+    padding: 0 1.5rem;
+}
+
+nav  ul {  
+    display:flex;
+    justify-content:center;
+    list-style: none;
+    gap:2rem;
+    flex-direction:row;
+    padding: 0;
+    margin:0;
+    position: sticky;
+    top: 0;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    color:#8c54c0;
+}
+
+h1 {
+    justify-content:flex-start;
+    color:#121014;
+}
+
+h2{
+    color:#8c54c0;
+}
+
+#home {
+    padding-left: 70px;
+    padding-right:70px;
+    display: flex;
+}
+
+#about , #skills{
+    background-color:#e6dcef;
+    padding-left:30px;
+    padding-bottom:0px;
+    
+}
+.about-skills-wrapper {
+    display: flex;
+    gap: 5px;
+}
+
+#about, #skills {
+    flex: 1;
+}
+
+.btn {
+    display: inline-flex;
+    padding: 10px 20px;
+    background-color: #b791da;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+} 
+
+.btn:hover {
+    background-color: #b06dee;
+    transform: translateY(-2px);
+}
+
+.btn span {
+  margin-left: 7px;
+  font-size: 1.5rem;
+  display: inline-flex;
+}
+
+.skills-container {
+    display:flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills-container span {
+    background-color: #ffffff;
+    display:inline-flex;
+    align-items: center;
+    gap: 8px;
+} 
+.skills-container span img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+.hero-art {
+    position: relative;
+    max-width:450%;
+    width: 100%;
+}
+
+.hero-art img {
+    width:100%;
+    height: auto;
+}
+.cards{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+}
+.project-card {
+    background-color: #ffffff;
+    padding: 30px 30px;
+    border-radius: 2px;
+    box-shadow: 2px 2px 10px #ce98f3;
+}
+
+.footer-section {
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid;
+}
+footer {
+    text-align: center;
+    padding: 30px 20px;
+    border-top: 1px solid #e2e4ef;
+}
+section {
+    margin-top: 60px;
+}
+#contact {
+    margin-bottom: 20px;
+}
+body.dark-mode {
+    background-color: #1a1a2e;
+    color: #f4f4f9;
+}
+
+body.dark-mode .project-card {
+    background-color: #16213e;
+    color: #f4f4f9;
+}
+body.dark-mode #about  {
+    background-color: #2a2a40;
+    color: #f4f4f9;
+}
+body.dark-mode #skills {
+    background-color: #2a2a40;
+    color: #f4f4f9;
+}
+body.dark-mode .skills-container {
+    background-color: #2a2a40;
+    color: #f4f4f9;
+}
